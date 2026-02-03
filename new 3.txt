@@ -1,5 +1,0 @@
------------------------------------------------------ C#-Guide -------------------------------------------------------------------------------------------
-DAY-1 : 
-1.c# as i know about python logics and syntax iam very much confused about the c# syntax and each semi column is 
-  countable in c# You can see the code and error i made in github commits
-  

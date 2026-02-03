@@ -5,10 +5,14 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "C#: csharp_learning Debug",
-            "type": "dotnet",
+            "name": ".NET Core Launch (console)",
+            "type": "coreclr",
             "request": "launch",
-            "projectPath": "${workspaceFolder}/csharp_learning.csproj"
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/bin/Debug/net10.0/csharp_learning.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole"
         }
     ]
 }
