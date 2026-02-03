@@ -9,3 +9,7 @@ else
 {
     Console.WriteLine($"{a}is odd");
 }
+
+
+
+Console.WriteLine("this is 2nd problem:");

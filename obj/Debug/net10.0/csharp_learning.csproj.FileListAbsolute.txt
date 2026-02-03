@@ -1,0 +1,15 @@
+C:\Users\maddi\OneDrive\Documents\my_projects\c#\bin\Debug\net10.0\csharp_learning.exe
+C:\Users\maddi\OneDrive\Documents\my_projects\c#\bin\Debug\net10.0\csharp_learning.deps.json
+C:\Users\maddi\OneDrive\Documents\my_projects\c#\bin\Debug\net10.0\csharp_learning.runtimeconfig.json
+C:\Users\maddi\OneDrive\Documents\my_projects\c#\bin\Debug\net10.0\csharp_learning.dll
+C:\Users\maddi\OneDrive\Documents\my_projects\c#\bin\Debug\net10.0\csharp_learning.pdb
+C:\Users\maddi\OneDrive\Documents\my_projects\c#\obj\Debug\net10.0\csharp_learning.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maddi\OneDrive\Documents\my_projects\c#\obj\Debug\net10.0\csharp_learning.AssemblyInfoInputs.cache
+C:\Users\maddi\OneDrive\Documents\my_projects\c#\obj\Debug\net10.0\csharp_learning.AssemblyInfo.cs
+C:\Users\maddi\OneDrive\Documents\my_projects\c#\obj\Debug\net10.0\csharp_learning.csproj.CoreCompileInputs.cache
+C:\Users\maddi\OneDrive\Documents\my_projects\c#\obj\Debug\net10.0\csharp_learning.sourcelink.json
+C:\Users\maddi\OneDrive\Documents\my_projects\c#\obj\Debug\net10.0\csharp_learning.dll
+C:\Users\maddi\OneDrive\Documents\my_projects\c#\obj\Debug\net10.0\refint\csharp_learning.dll
+C:\Users\maddi\OneDrive\Documents\my_projects\c#\obj\Debug\net10.0\csharp_learning.pdb
+C:\Users\maddi\OneDrive\Documents\my_projects\c#\obj\Debug\net10.0\csharp_learning.genruntimeconfig.cache
+C:\Users\maddi\OneDrive\Documents\my_projects\c#\obj\Debug\net10.0\ref\csharp_learning.dll
