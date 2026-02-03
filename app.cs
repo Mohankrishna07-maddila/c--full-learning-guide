@@ -13,3 +13,25 @@ else
 
 
 Console.WriteLine("this is 2nd problem:");
+
+
+
+
+// IMPLEMENTED THE LOGIC OF CHECKING EVEN OR ODD IN REUSABLE FUNCTION FORMAT
+static bool iseven(int a)
+{
+    return a % 2 == 0;
+}
+
+
+
+int b=(5);
+// Console.WriteLine(iseven($"{2} is even")); #this is a mistake i made at first
+if (iseven(b))
+{
+    Console.WriteLine($"{b} is even");
+}
+else
+{
+    Console.WriteLine($"{b} is odd");
+}
