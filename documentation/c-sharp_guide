@@ -2,4 +2,41 @@
 DAY-1 : 
 1.c# as i know about python logics and syntax iam very much confused about the c# syntax and each semi column is 
   countable in c# You can see the code and error i made in github commits
-  
+2.the code is :
+// this is variables
+int a=2;
+
+if (a % 2 == 0)
+{
+    Console.WriteLine($"{a} is even");
+}
+else
+{
+    Console.WriteLine($"{a} is odd");
+}
+
+
+
+
+this is 2nd problem:
+// IMPLEMENTED THE LOGIC OF CHECKING EVEN OR ODD IN REUSABLE METHOD FORMAT 
+#this is method iseven:
+static bool iseven(int a)
+{
+    return a % 2 == 0;
+}
+
+
+
+int b=(5);  #this is the assigning the variable assign in the value
+
+// Console.WriteLine(iseven($"{2} is even")); #this is a mistake i made at first
+
+if (iseven(b))        	#iseven is a method to we can reuse
+{
+    Console.WriteLine($"{b} is even");
+}
+else
+{
+    Console.WriteLine($"{b} is odd");
+}
