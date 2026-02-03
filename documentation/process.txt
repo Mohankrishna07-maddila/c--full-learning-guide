@@ -1,0 +1,5 @@
+1.open the vs code 
+2.create a new folder with any name you want
+3.open terminal in the folder with keys {ctrl+shift+backtick}
+4.type command  <git clone https://github.com/Mohankrishna07-maddila/c--full-learning-guide.git> press enter
+5.clone the repo and see it in your local IDE.

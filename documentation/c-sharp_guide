@@ -1,42 +1,57 @@
 ----------------------------------------------------- C#-Guide -------------------------------------------------------------------------------------------
 DAY-1 : 
-1.c# as i know about python logics and syntax iam very much confused about the c# syntax and each semi column is 
-  countable in c# You can see the code and error i made in github commits
-2.the code is :
-// this is variables
-int a=2;
+		problem-1
+			1.c# as i know about python logics and syntax iam very much confused about the c# syntax and each semi column is 
+						countable in c# You can see the code and error i made in github commits
+			2.the code is :
+			// this is variables
+			int a=2;
+			
+			if (a % 2 == 0)
+			{
+				Console.WriteLine($"{a} is even");
+			}
+			else
+			{
+				Console.WriteLine($"{a} is odd");
+			}
 
-if (a % 2 == 0)
-{
-    Console.WriteLine($"{a} is even");
-}
-else
-{
-    Console.WriteLine($"{a} is odd");
-}
-
-
-
-
-this is 2nd problem:
-// IMPLEMENTED THE LOGIC OF CHECKING EVEN OR ODD IN REUSABLE METHOD FORMAT 
-#this is method iseven:
-static bool iseven(int a)
-{
-    return a % 2 == 0;
-}
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
+		problem-2:
+			// IMPLEMENTED THE LOGIC OF CHECKING EVEN OR ODD IN REUSABLE METHOD FORMAT 
+			#this is method iseven:
+			static bool iseven(int a)
+			{
+				return a % 2 == 0;
+			}
+			
+			
+			
+			int b=(5);  #this is the assigning the variable assign in the value
+			
+			// Console.WriteLine(iseven($"{2} is even")); #this is a mistake i made at first
+			
+			if (iseven(b))        	#iseven is a method to we can reuse
+			{
+				Console.WriteLine($"{b} is even");
+			}
+			else
+			{
+				Console.WriteLine($"{b} is odd");
+			}
 
-int b=(5);  #this is the assigning the variable assign in the value
-
-// Console.WriteLine(iseven($"{2} is even")); #this is a mistake i made at first
-
-if (iseven(b))        	#iseven is a method to we can reuse
-{
-    Console.WriteLine($"{b} is even");
-}
-else
-{
-    Console.WriteLine($"{b} is odd");
-}
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+		problem -3 : 
+			later on i have come to know about the errors :{same scope error}
+			PS C:\Users\maddi\OneDrive\Documents\my_projects\c#> dotnet run app.cs
+			C:\Users\maddi\OneDrive\Documents\my_projects\c#\app.cs(50,5): error CS0128: A local variable or function named 'a' is already defined in this scope
+			C:\Users\maddi\OneDrive\Documents\my_projects\c#\app.cs(50,5): warning CS0219: The variable 'a' is assigned but its value is never used
+			
+			The build failed. Fix the build errors and run again.
+			
+			the key solution is :
+					the name a is already used in the code  as variable so when we re use it in code without using a separate class can throw this error
+		
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
