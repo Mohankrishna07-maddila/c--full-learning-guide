@@ -1,3 +1,4 @@
+using System;
 // this is variables
 int a=2;
 
@@ -34,4 +35,25 @@ if (iseven(b))
 else
 {
     Console.WriteLine($"{b} is odd");
+}
+
+
+
+// this is 3rd problem:
+static int ramesh(int a)
+{
+    for (int i=0;i<a;i++)
+    {
+        return i;
+    }
+}
+
+int a=3;
+if (ramesh(a))
+{
+    Console.WriteLine(a);
+}
+else
+{
+    Console.WriteLine(a);
 }
