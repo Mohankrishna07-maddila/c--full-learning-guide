@@ -25,7 +25,7 @@ static bool iseven(int a)
 
 
 
-int b=(5);
+int b=(2);
 // Console.WriteLine(iseven($"{2} is even")); #this is a mistake i made at first
 if (iseven(b))
 {
